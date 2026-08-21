@@ -1,0 +1,23 @@
+{
+  "name": "baby-agi",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --hot index.ts",
+    "start": "bun run index.ts",
+    "example:basic": "bun run examples/basic_usage.ts",
+    "example:classic": "bun run examples/classic_loop.ts",
+    "example:self-build": "bun run examples/self_build.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
